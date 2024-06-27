@@ -22,6 +22,8 @@ import '../assets/js/send_email.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
 // Functional component for Home
 const Home = () => {
   // Ref for video element
@@ -53,7 +55,7 @@ const Home = () => {
           <video
             ref={videoRef}
             style={{ height: '100vh', width: '100%', backgroundColor: 'black', padding: 0, margin: 0 }}
-            src="video/NFS.mp4"
+            src={"video/NFS.mp4"}
             autoPlay
             loop
             id="NFS"

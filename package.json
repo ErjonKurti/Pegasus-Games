@@ -1,48 +1,143 @@
 {
-  "homepage": "https://ErjonKurti.github.io/my-react-app",
+ 
+  "homepage": "https://ErjonKurti.github.io/Pegasus",
+
   "name": "pegasus_games",
+ 
   "version": "0.1.0",
+ 
   "private": true,
+ 
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
-    "emailjs-com": "^3.2.0",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^6.1.11",
-    "web-vitals": "^2.1.4"
+ 
+   
+  "@testing-library/jest-dom": "^5.17.0",
+ 
+   
+  "@testing-library/react": "^13.4.0",
+ 
+   
+  "@testing-library/user-event": "^13.5.0",
+ 
+   
+  "bootstrap": "^5.3.3",
+ 
+   
+  "emailjs-com": "^3.2.0",
+ 
+   
+  "jquery": "^3.7.1",
+ 
+   
+  "popper.js": "^1.16.1",
+ 
+   
+  "react": "^18.3.1",
+ 
+   
+  "react-dom": "^18.3.1",
+ 
+   
+  "react-scripts": "^5.0.1",
+ 
+   
+  "styled-components": "^6.1.11",
+ 
+   
+  "web-vitals": "^2.1.4"
+ 
   },
+ 
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+ 
+   
+  "start": "react-scripts start",
+ 
+   
+  "predeploy": "npm run build",
+ 
+   
+  "deploy": "gh-pages -d build",
+ 
+   
+  "build": "react-scripts build",
+ 
+   
+  "test": "react-scripts test"
+ 
   },
+ 
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+ 
+   
+  "extends": [
+ 
+   
+   
+  "react-app",
+ 
+   
+   
+  "react-app/jest"
+ 
+   
+  ]
+ 
   },
+ 
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+ 
+   
+  "production": [
+ 
+   
+   
+  ">0.2%",
+ 
+   
+   
+  "not dead",
+ 
+   
+   
+  "not op_mini all"
+ 
+   
+  ],
+ 
+   
+  "development": [
+ 
+   
+   
+  "last 1 chrome version",
+ 
+   
+   
+  "last 1 firefox version",
+ 
+   
+   
+  "last 1 safari version"
+ 
+   
+  ]
+ 
   },
+ 
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
-    "gh-pages": "^6.1.1",
-    "react-router-dom": "^6.24.0"
+ 
+   
+  "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+ 
+   
+  "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+ 
+   
+  "gh-pages": "^6.1.1",
+ 
+   
+  "react-router-dom": "^6.24.0"
+ 
   }
 }

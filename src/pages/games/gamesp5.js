@@ -18,13 +18,13 @@ const Gamesp5 = () => {
     return (
         <>
 
-<section className="image-with-text">
+            <section className="image-with-text">
                 <div className="image-container">
                     <img className="set-background" src="img/slider-1.jpg" alt="Background" />
                     <div className="text-overlay-games">
                         <h1>Elevate your gaming experience</h1>
                         <p>If you don't have qBittorrent installed, you can download it here:</p>
-                        
+
                         <a href="qbittorrent/qbittorrent-macos.dmg" rel="noopener noreferrer" className="download-link">
                             <button className="FDM-button">
                                 <span className="macos-icon"></span> qBittorrent - MacOS®
@@ -35,7 +35,7 @@ const Gamesp5 = () => {
                             <button className="FDM-button">
                                 <span className="windows-icon"></span> qBittorrent - Windows®
                             </button>
-                        </a>    
+                        </a>
                     </div>
                 </div>
             </section>
