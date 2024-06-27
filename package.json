@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ErjonKurti.github.io/my-react-app",
   "name": "pegasus_games",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,7 @@
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.11",
-    "web-vitals": "^2.1.4",
-    "https://ErjonKurti.github.io/my-react-app"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -43,8 +43,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "gh-pages": "^6.1.1",
-    
     "react-router-dom": "^6.24.0"
   }
-  
 }
