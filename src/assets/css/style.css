@@ -1,0 +1,621 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 500;
+    color: #131313;
+}
+
+p {
+    font-size: 14px;
+    color: #878787;
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.set-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.space-between-sections {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.rating i {
+    color: #fbb710;
+}
+
+.rating .empty-star {
+    color: #e0e3e4;
+}
+
+.category {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 6px 25px;
+}
+
+.category.new {
+    background: #ff205f;
+}
+
+.category.strategy {
+    background: #4eae60;
+}
+
+.category.racing {
+    background: #694eae;
+}
+
+.category.adventure {
+    background: #40abf5;
+}
+
+.header-section {
+    background: rgb(39, 39, 39);
+    clear: both;
+    overflow: hidden;
+    padding: 18px 0;
+}
+
+
+.can-i-run-it-section {
+    background-image: url("../../../public/img/pattern.png");
+    background-repeat: repeat;
+    height: 40%;
+    width: 100%;
+}
+
+
+.detection-container{
+    margin-inline-start: 20%;
+    margin-top: 3%;
+}
+
+.detection-container h2{
+    color: rgb(231, 231, 231);
+}
+
+.detection-container p{
+    color: rgba(231, 231, 231, 0.684);
+    font-size: 15px;
+}
+
+.detection-container a{
+    color: rgb(231, 231, 231);
+    font-weight: 400;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.detection-container a:hover{
+    color: rgba(62, 249, 5, 0.684);
+    text-decoration: none;
+}
+
+.review-section {
+    background-position: right top;
+}
+
+.review-item .review-cover {
+    position: relative;
+    margin-bottom: 30px;
+    height: 345px;
+}
+
+.review-item .review-cover .score {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: -27px;
+    left: 26px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.review-item .review-cover .score.yellow {
+    background: #ff0000;
+}
+
+.review-item .review-cover .score.purple {
+    background: #694eae;
+}
+
+.review-item .review-cover .score.pink {
+    background: #ff20ae;
+}
+
+.review-item .review-cover .score.green {
+    background: #4eae60;
+}
+
+.review-item .review-text {
+    text-align: center;
+}
+
+.review-item .review-text h5 {
+    margin-bottom: 10px;
+    margin-left: -7%;
+}
+
+.review-item .review-text p {
+    margin-bottom: 10;
+    margin-left: -7%;
+}
+
+.review-item .rating {
+    margin-bottom: 20px;
+}
+
+.review-item .rating i {
+    font-size: 12px;
+}
+
+.footer-top-section {
+    background-image: url("../../../public/img/pattern.png");
+    background-repeat: repeat;
+    padding: 72px 0;
+}
+
+.footer-top-section .container {
+    position: relative;
+}
+
+.footer-top-bg {
+    position: absolute;
+    left: -30px;
+    bottom: -85px;
+    z-index: 2;
+}
+
+.footer-section {
+    padding: 18px 0 16px;
+    overflow: hidden;
+    background: #252525;
+}
+
+.footer-menu {
+    list-style: none;
+    float: right;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu li a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #aeaeae;
+    margin-left: 30px;
+}
+
+.copyright {
+    float: left;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #aeaeae;
+}
+
+
+
+
+
+
+/* about us */
+.contact-info-list {
+    padding-top: 55px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.contact-info-list li {
+    margin-bottom: 30px;
+}
+
+.contact-info-list .cf-left {
+    width: 95px;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #184e08;
+}
+
+.contact-info-list .cf-right {
+    color: #878787;
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+.social-links a {
+    color: #474747;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.flex-center {
+    width: 100%;
+    min-height: 35vh;
+    background: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-3d {
+    padding: 10px;
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+    color: #fff;
+}
+
+.icon-3d:hover {
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
+}
+
+.about-us-section {
+    margin-top: 140px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #ffffff;
+  }
+
+  .about-us-section h1 {
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .about-us-section h2 {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .frequently-asked-questions-section{
+    margin-top: 0px;
+    color: hsla(0, 0%, 0%, 0.855);
+  }
+
+  .frequently-asked-questions-section h1{
+    color: hsla(0, 0%, 0%, 0.855);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+
+  .frequently-asked-questions-section h2{
+    margin-top: 20px;
+    color: hsla(0, 0%, 0%, 0.855);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+  }
+
+  .faqs-container{
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+
+  .p-span{
+    font-weight: 500;
+    color: #000;
+  }
+
+  .how-to-download-section h1{
+    color: #ffffff;
+    margin-top: 90px;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .how-to-download-section h2{
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .how-to-download-container{
+        margin-top: 50px;
+        margin-left: 120px;
+  }
+
+  .how-to-download-container video{
+        height: 380px;
+        width: 670px;
+  }
+
+  .how-to-download-container h6,p{
+    margin-top: 30px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+/* home */
+.recent-game-section {
+    border-top: 1px solid #d6dee7;
+    border-bottom: 1px solid #d6dee7;
+}
+
+.recent-game-item .rgi-thumb {
+    height: 204px;
+    padding: 25px 28px;
+}
+
+.recent-game-item .rgi-content {
+    padding: 34px 22px 20px;
+    background: #fff;
+    border: 1px solid #d6dee7;
+    border-top: none;
+    position: relative;
+}
+
+/* .parameter{
+    max-width: 370px;
+    max-height: 500px;
+    margin-left: 10px;
+}
+
+
+.review-parameters{
+    max-width: 250px;
+    max-height: 580px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+} */
+
+
+
+
+
+/* review */
+
+
+.download-button {
+    border: none;
+    background: #000000e3;
+    color: #ffffff ;
+    font-weight: 100;
+    padding: 18px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+.download-button:hover {
+    color: #404040 ;
+    font-weight: 700 ;
+    letter-spacing: 5px;
+    background: none;
+    -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.5s ease 0s;
+}
+
+
+
+.image-with-text {
+    position: relative;
+    /* Ensure the container takes the size of the image */
+}
+
+.image-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* Adjust positioning and styling as necessary */
+}
+
+.text-overlay h1{
+    margin: 0;
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+.text-overlay h2{
+    margin: 0;
+    font-family: outfit;
+    font-size: larger;
+}
+
+.text-overlay p {
+    font-size: 14px;
+    margin: 0;
+    font-family: outfit;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.519);
+}
+
+
+.FDM-button {
+    border-color: rgba(255, 255, 255, 0.148);
+    background: transparent;
+    color: #ffffff ;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 18px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
+}
+
+.FDM-button:hover {
+    
+    border-color: transparent;
+    color: #404040 ;
+    font-weight: 700 ;
+    letter-spacing: 5px;
+    background: none;
+    -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.5s ease 0s;
+}
+
+.fdm-icon {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url('../../../public/img/fdm.png');
+    background-size: cover;
+    margin-right: 10px; 
+  }
+
+  .windows-icon {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url('../../../public/img/windows-logo.png');
+    background-size: cover;
+    margin-right: 10px; 
+  }
+
+  .macos-icon {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url('../../../public/img/macos-logo.png');
+    background-size: cover;
+    margin-right: 10px; 
+  }
+
+  .linux-icon {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url('../../../public/img/linux-logo.png');
+    background-size: cover;
+    margin-right: 10px; 
+  }
+ 
+
+
+  .text-overlay-games {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* Adjust positioning and styling as necessary */
+}
+
+.text-overlay-games h1{
+    margin: 0;
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+.text-overlay-games h2{
+    margin: 0;
+    font-family: outfit;
+    font-size: larger;
+}
+
+.text-overlay-games p {
+    font-size: 14px;
+    margin: 0;
+    font-family: outfit;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.519);
+}
+
+
+
+.instagram-icon {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url('../../../public/img/ig-logo.png');
+    background-size: cover;
+    margin-right: 10px; 
+  }
+
+  .linkedin-icon {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url('../../../public/img/linkedin-logo.png');
+    background-size: cover;
+    margin-right: 10px; 
+  }

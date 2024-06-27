@@ -1,0 +1,22 @@
+ 
+
+nav {
+	background-color: rgba(26, 26, 26, 0.3);
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.nav-item {
+  position: relative;
+  padding-right: 20px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.nav-item:hover {
+  color: rgb(191, 189, 189);
+}

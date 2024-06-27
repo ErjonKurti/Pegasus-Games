@@ -1,0 +1,10 @@
+.search input[type=text] {
+    box-sizing: border-box;
+    color:rgba(255, 255, 255, 0.805);
+    background-color: transparent;
+    float: right;
+    padding: 3px;
+    border: none;
+    margin-right: 10px;
+    font-size: 15px;
+  }
