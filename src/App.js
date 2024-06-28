@@ -5,7 +5,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 
 import Navbar from './components/navbar';
-import Footer from './components/footer';
+import Footer from './components/footer1';
 
 import Home from './pages/home';
 import Games from './pages/games';
